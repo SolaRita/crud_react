@@ -1,15 +1,13 @@
 import React, { Component } from 'react';
 import {MenuItems} from "./MenuItem";
+import "./Navbar.css";
 
 class Navbar extends Component {
     render (){
         return(
-            <nav className="NavbarItems">
-            <h1 className="navbar-logo">React <i className = "fab fa-react"></i> </h1>
-            <div className="menu-icon">
-
-            </div>
-            <ul>
+            <nav className="Navbar">
+            <h1 className="navabar-logo">Eatting Places</h1>
+            <ul className='NavbarItems'>
                 {MenuItems.map((item, index) => {
                     return (
                         <li key = {index}>

@@ -1,0 +1,33 @@
+.Navbar {
+  background-color: #0cbaba;
+  background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2 rem;
+}
+
+.navabar-logo {
+  color: darksalmon;
+  justify-self: start;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.NavbarItems {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-gap: 10px;
+  text-align: center;
+  width: 10 vw;
+  justify-content: end;
+  margin-right: 2em;
+}
+
+.nav-links {
+  color: bisque;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
