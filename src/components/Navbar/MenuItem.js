@@ -16,10 +16,4 @@ export const MenuItems =[
         cName: 'nav-links',
     },
 
-    {
-        title: 'Carmen',
-        url: '#',
-        cName: 'nav-links',
-    }
-
 ]

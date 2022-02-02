@@ -1,25 +1,20 @@
 import React from "react";
-import './styles/App.css';
+import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import Form from "./components/Form/Form";
-
-
+import Card from "./components/Cards/Card.jsx";
 
 function App() {
   return (
     <div className="App">
-
       <header className="App-header">
-        <Navbar/>
-
+        <Navbar />
       </header>
       <main>
-        <Form/>
+        <Form />
+        <Card />
       </main>
-      <footer>
-
-      </footer>
-
+      <footer></footer>
     </div>
   );
 }

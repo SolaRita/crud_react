@@ -1,0 +1,9 @@
+.card {
+  background-color: hsl(6, 93%, 71%, 0.3);
+  padding: 20 px;
+  margin: 3vh;
+  padding: 1vh;
+  border-radius: 10px;
+  text-align: left;
+  color: aliceblue;
+}

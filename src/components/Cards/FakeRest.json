@@ -1,0 +1,21 @@
+{"FakeRest": [
+    {
+        "id": 1,
+        "name" : "Susis home",
+        "type" : "Asian",
+        "price" :"20"
+    },
+    {
+        "id": 2,
+        "name" : "Paco Meralgo",
+        "type" : "Mediterranian",
+        "price" :"40"
+    },
+    {
+        "id": 3,
+        "name" : "Lola Tomate",
+        "type" : "Fusion",
+        "price" :"30"
+    }
+    
+]}
